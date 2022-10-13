@@ -1,0 +1,18 @@
+{
+    "name": "io-jaegers/security",
+    "description": "Security tools for php.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IoJaegers\\Security\\": "code/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kent Madsen",
+            "email": "kent.vejrup.madsen@designermadsen.dk"
+        }
+    ],
+    "require": {}
+}
