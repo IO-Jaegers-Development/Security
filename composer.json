@@ -3,16 +3,25 @@
     "description": "Security tools for php.",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
+
+    "autoload":
+    {
+        "psr-4":
+        {
             "IoJaegers\\Security\\": "code/"
         }
     },
-    "authors": [
+
+    "authors":
+    [
         {
             "name": "Kent Madsen",
             "email": "kent.vejrup.madsen@designermadsen.dk"
         }
     ],
-    "require": {}
+
+    "require":
+    {
+        "php": ">=8.1"
+    }
 }
